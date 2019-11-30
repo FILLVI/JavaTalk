@@ -47,10 +47,10 @@ public class Record {
         Scanner sc = new Scanner(System.in);
         String scc;
         if (sc.hasNext()) {
-            System.out.println("Запись звука остановлена");
+            System.out.println("Record voice stop");
             scc = sc.nextLine();
             if (scc.equals("g")) {
-                System.out.println("Запись звука остановлена");
+                System.out.println("Record voice stop");
                 mike.stop();
             }
         }
