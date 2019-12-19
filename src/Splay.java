@@ -18,7 +18,7 @@ public class Splay {
 
         boolean playing = true;
         System.out.println("Start");
-        String fileN = "G:\\test\\mix1" + "." + fileType;
+        String fileN = "G:\\test\\mix 15" + "." + fileType;
         File f = new File(fileN);
 
         AudioInputStream source = null;
